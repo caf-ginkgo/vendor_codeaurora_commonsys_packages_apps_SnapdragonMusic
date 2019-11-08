@@ -33,8 +33,8 @@ package com.codeaurora.music.custom;
 import com.android.music.TouchInterceptor;
 import android.content.Context;
 import android.util.AttributeSet;
-import android.support.v4.view.NestedScrollingChild;
-import android.support.v4.view.NestedScrollingChildHelper;
+import androidx.core.view.NestedScrollingChild;
+import androidx.core.view.NestedScrollingChildHelper;
 
 public class TouchInterceptorScrollView extends TouchInterceptor implements
     NestedScrollingChild{

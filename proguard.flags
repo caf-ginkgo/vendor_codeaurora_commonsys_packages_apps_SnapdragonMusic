@@ -2,6 +2,5 @@
   public void playPauseClicked(android.view.View);
 }
 
--dontwarn android.support.v7.appcompat.*
--keep class android.support.design.widget.** { *; }
--keep interface android.support.design.widget.** { *; }
+-dontwarn androidx.appcompat_appcompat.*
+
