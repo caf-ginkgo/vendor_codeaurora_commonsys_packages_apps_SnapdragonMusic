@@ -848,7 +848,7 @@ public class PlaylistBrowserFragment extends Fragment implements
         // check if there are any podcasts
         Cursor counter = MusicUtils.query(parentActivity,
                 MediaStore.Audio.Media.EXTERNAL_CONTENT_URI,
-                new String[] { "count(*)" }, "is_podcast=1", null, null);
+                new String[] { "count(_id)" }, "is_podcast=1", null, null);
         if (counter != null && counter.getCount() > 0) {
             counter.moveToFirst();
             int numpodcasts = counter.getInt(0);
