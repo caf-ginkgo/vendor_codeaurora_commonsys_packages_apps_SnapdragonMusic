@@ -75,7 +75,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.RemoteViews;
 import android.widget.Toast;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import java.io.FileDescriptor;
 import java.io.IOException;
 import java.io.PrintWriter;
